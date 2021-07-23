@@ -16,7 +16,7 @@ for file in onlyfiles:
 
     img.save(newfilename,format = 'ICO', sizes=[(64,64)])
 
-    destination = 'C:/Users/david/Pictures/icons'
+    destination = 'C:/Users/user/Pictures/icons'
 
     shutil.move(newfilename, destination)
 
